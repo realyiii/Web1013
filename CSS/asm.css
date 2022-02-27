@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #FFF4E5;
+    position: absolute;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 18px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    color: black;
+}
+.hmenu>li>a:hover .smenu{
+    color: rgb(229,178,142);
+    display: block;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.hmenu{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+article{
+    background-color: none;
+    margin: 20px;
+    width: 95%;
+    float: left;
+}
+.col50{
+        width: 480px;
+        float: left;
+        height: 520px;
+        margin: 25px;
+        margin-left: 75px;       
+}
+.img{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.col50 .img:hover{
+    transform: scale(1.1);
+}
+.tensp a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+.tensp a:hover{
+    color: rgb(229,178,142);
+}
+.gia{
+    margin-top: 3px;
+    font-size: 1em;
+    color: rgb(171,116,102);
+}
+.face{
+    clear: both;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255,247,230);
+}
+.smenu{
+    background-color: white;
+    list-style: none;
+    position: absolute;
+    top: 15px;
+    width: 180px;
+    height: 160px;
+    padding: 20px;
+    border: 1px solid black;
+    display: none;
+}
+.smenu>li{
+    display: block;
+    height: 25px;
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    margin: 5px 0;
+    display: block;
+}
+.smenu>li>a:hover{
+    color: rgb(229,178,142);
+}
+footer{
+    height: 220px;
+    clear: both;
+    background-color: rgb(38,38,38)
+}
+.center1{
+    padding: 30px;
+    margin-left: 50px;
+    width: 80%;
+}
+.col3{
+    float: left;
+}
+.col3>.phone{
+    font-size: 1em;
+    color: white;
+}
+h4{
+    color: white;
+    margin: 0 0 15px 0;
+}
+.listf{
+    list-style-type: none;
+}
+.listf a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+.listf li{
+    line-height: 20px;
+}
+
